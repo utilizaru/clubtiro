@@ -600,4 +600,23 @@ form label {
   .logo {
     width: 60px;
   }
+
+  .contacto,
+  .mobile-column {
+    flex-direction: column;
+  }
+
+  .media-item img {
+    height: 160px;
+  }
+
+  .media-item.video {
+    width: 160px;
+    height: 150px;
+  }
+
+  .service {
+    text-align: center;
+    padding: 10px;
+  }
 }

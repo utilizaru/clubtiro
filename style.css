@@ -455,7 +455,7 @@ input {
   z-index: 1;
 }
 
-.parrafo {
+.paragraph {
   line-height: 1.6;
   font-size: 20px !important;
 }
@@ -585,9 +585,19 @@ form label {
   }
 
   .titles h1 {
-    font-size: 20px;
+    font-size: 18px;
+    line-height: normal;
   }
+
   .titles span {
-    font-size: 20px;
+    font-size: 14px;
+  }
+
+  .paragraph {
+    font-size: 14px !important;
+  }
+
+  .logo {
+    width: 60px;
   }
 }
